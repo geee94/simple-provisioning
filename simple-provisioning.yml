@@ -75,7 +75,7 @@
       image: "{{instance_image}}"
       region: "{{aws_region}}"
       wait: no
-      group: allow tcp
+      group: allow-tcp
       instance_tags: 
         db: webserver
       count: 1
